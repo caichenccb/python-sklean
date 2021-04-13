@@ -27,7 +27,7 @@ y = dataMat[:,0]  #变量y
 
 # ========岭回归========
 alphas = 10**np.linspace(- 3, 3, 100)
-model = Ridge(alpha=alphas)
+model = Ridge(alpha=alphas,solver="cholesky")
 model = RidgeCV(alphas=alphas,store_cv_values=True)  # 通过RidgeCV可以设置多个参数值，算法使用交叉验证获取最佳参数值
 model.fit(X, y)   # 线性回归建模
 print(model.alpha_)#岭系数

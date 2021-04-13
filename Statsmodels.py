@@ -5,7 +5,7 @@ Created on Thu Jun 27 10:40:13 2019
 @author: 92156
 """
 
-#https://zhuanlan.zhihu.com/p/22692029
+#https://www.zhihu.com/search?type=content&q=statsmodels
 #文章来源 
 
 #statsmodels.OLS 的输入有 (endog, exog, missing, hasconst) 四个
